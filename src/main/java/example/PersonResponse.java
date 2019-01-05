@@ -1,6 +1,6 @@
 package example;
 
-public class ResponseClass {
+public class PersonResponse {
     private String greetings;
 
     public String getGreetings() {
@@ -11,11 +11,11 @@ public class ResponseClass {
         this.greetings = greetings;
     }
 
-    public ResponseClass(String greetings) {
+    public PersonResponse(String greetings) {
         this.greetings = greetings;
     }
 
-    public ResponseClass() {
+    public PersonResponse() {
     }
 
 }

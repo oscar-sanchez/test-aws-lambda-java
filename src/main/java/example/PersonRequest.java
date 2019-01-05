@@ -1,6 +1,6 @@
 package example;
 
-public class RequestClass {
+public class PersonRequest {
     private String firstName;
     private String lastName;
 
@@ -20,11 +20,11 @@ public class RequestClass {
         this.lastName = lastName;
     }
 
-    public RequestClass(String firstName, String lastName) {
+    public PersonRequest(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public RequestClass() {
+    public PersonRequest() {
     }
 }
